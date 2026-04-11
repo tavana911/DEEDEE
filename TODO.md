@@ -1,25 +1,4 @@
-# Responsive Improvements ✅ COMPLETE
+# Dee Dee Logo Fix Task - TODO
 
-**All User Feedback Addressed:**
-
-✅ **Laptop/Desktop spacing fixed**: 
-- Container max-width: 1280px (1200px→1280px), progressive padding (1rem→2rem sides)
-- More breathing room, less "choked" feel on 13-16" laptops
-
-✅ **Buttons refined**: 
-- Height: 0.625rem padding (was 0.75rem), border-radius: 0.375rem (less pill-shaped)
-- Order Now/Wholesale now sleeker across all components
-
-✅ **Social links added**:
-- **Footer**: New "Follow Us" section with TikTok 📱 + Instagram 📸
-- **Navbar**: Compact social btns next to Wholesale/Order
-
-**Files Updated:**
-- `src/index.css` (spacing + buttons)
-- `src/components/Footer.tsx` (+ social section)
-- `src/components/Navbar.tsx` (+ social btns)
-
-**Live at http://localhost:8082** - Test desktop (1366px+), laptop (1024-1440px), mobile. Server auto-reloads changes.
-
-Perfect balance of space + responsiveness achieved! 🎉"
-
+## Steps:
+1. [x] Edit src/components/Navbar.tsx: Import DEEDEE-.jpg and replace logo src from efewfewf.png to imported logo.\n2. [x] Edit src/components/Footer.tsx: Import DEEDEE-.jpg and replace logo src from efewfewf.png to imported logo.\n3. [x] Edit index.html: Update og:image to /src/assets/DEEDEE-.jpg.\n4. [x] Edit playwright.config.ts: Remove Lovable config, use standard Playwright.\n5. [x] Delete public/vite.svg and public/placeholder.svg.\n6. [x] Run `bun install` to clean lockfile.\n7. [ ] Test with `bun run dev` - verify logos show in Navbar/Footer, no errors.\n\n**Next step:** 7/7

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "@/assets/DEEDEE-.png";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
@@ -15,7 +16,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-md fixed-top" style={{ backgroundColor: 'rgba(255,247,237,0.92)', backdropFilter: 'blur(12px)', borderBottom: '1px solid var(--border-color)' }}>
       <div className="container">
         <a className="navbar-brand d-flex align-items-center gap-2" href="#hero">
-<img src="/src/assets/efewfewf.png" alt="DEEDEE CHINCHIN Logo" style={{width: '32px', height: '32px', objectFit: 'contain'}} />
+<img src={logo} alt="Dee Dee Chinchin Logo" style={{width: '40px', height: '40px', objectFit: 'contain'}} />
           <span className="navbar-brand-text">DEEDEE CHINCHIN</span>
         </a>
 

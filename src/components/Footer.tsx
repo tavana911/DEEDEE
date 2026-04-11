@@ -1,3 +1,5 @@
+import logo from "@/assets/DEEDEE-.png";
+
 const Footer = () => {
   return (
     <footer className="footer-custom" style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
@@ -5,7 +7,7 @@ const Footer = () => {
         <div className="row g-4">
           <div className="col-sm-6 col-lg-3">
             <div className="d-flex align-items-center gap-2 mb-3">
-<img src="/src/assets/efewfewf.png" alt="DEEDEE CHINCHIN Logo" style={{width: '28px', height: '28px', objectFit: 'contain'}} />
+<img src={logo} alt="Dee Dee Chinchin Logo" style={{width: '36px', height: '36px', objectFit: 'contain'}} />
               <span className="fw-bold fs-5">DEEDEE CHINCHIN</span>
             </div>
             <p className="footer-muted small" style={{ maxWidth: '30ch' }}>
